@@ -1,1 +1,0 @@
-# souma_code
