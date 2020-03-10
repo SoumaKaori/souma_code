@@ -1,0 +1,352 @@
+@import url('https://fonts.googleapis.com/css?family=M+PLUS+1p|Playfair+Display|Sawarabi+Mincho');
+/*font-family: 'Playfair Display', serif;
+font-family: 'Sawarabi Mincho', sans-serif;
+font-family: 'M PLUS 1p', sans-serif;*/
+/*============= COURSE SECTION =============*/
+.narrow h1 {
+    font-size: 2.4rem;
+  }
+.btn-secondary {
+  border-width: medium;
+  border-radius: 0;
+  padding: .6rem 1.2rem;
+  font-size: 1.2rem;
+  margin: 1rem;
+  border-color: #1EBBA3;
+  background-color: #1EBBA3;
+  color: white;
+}
+.btn-secondary:hover,
+.btn-secondary:focus {
+  border-color: #330033;
+  background-color: #189582;
+  color: white;
+}
+.btn-primary{
+  background-color: #330033;
+}
+
+body{
+  overflow-x: hidden;
+  font-family: 'M PLUS 1p', sans-serif;
+  color:#505962;
+}
+h1{
+  display: inline-block;
+}
+.social-icon li{
+  list-style: none;
+  display: inline-block;
+  font-size: 1rem;
+  color:#330033;
+}
+.social-icon .btn
+{
+  color: #8b008b;
+}
+.social-icon .btn:hover{
+  color: #4b0082;
+}
+
+.offset::before{
+  display: block;
+  content:"";
+  height:4rem;
+  margin-top: -4rem;
+}
+/*----nav----*/
+.navbar{
+  font-weight:700;
+  font-size: .9rem;
+  letter-spacing: .1rem;
+  background-color: #ffe4e1 !important;
+  font-family: 'Sawarabi Mincho', sans-serif;
+}
+.navbar-light img{
+  height: 2rem;
+}
+.navbar-nav li{
+  padding-right: .7rem;
+}
+.navbar-light .navbar-nav .navbar-link{
+  color:white;
+  padding-top: .8rem;
+}
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link:hover {
+  color:#990099;
+}
+.menu{
+  color:#990099;
+  padding-top: .2rem
+}
+/*--Landing--*/
+.home-inner{
+  background:url('img/20190114205516.jpg');
+  opacity: 0.6;
+}
+.caption{
+  width: 100%;
+  max-width:100%;
+  position:absolute;
+  top:15%;
+  z-index: 1;
+  color: #fff;
+}
+.caption h1{
+  padding-bottom:1rem;
+  top:26%;
+}
+.caption  img{
+  width: 430px;
+}
+.display-4{
+  font-size: 1.7rem;
+  padding-bottom:1rem;
+}
+
+.btn-lg{
+  border-width:medium;
+  border-radius:0;
+  padding:.6rem 1.3rem;
+  font-size: 1.1rem;
+}
+.heading{
+  font-family: 'Sawarabi Mincho', sans-serif;
+  color:#330033;
+}
+
+/* ------course-------*/
+.narrow{
+  width:75%;
+  margin: 1.5rem auto;
+  padding-top: 2rem;
+}
+.narrow h1{
+  font-size: 2.4rem;
+}
+.btn-secondary{
+  border-width:medium;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  padding: .6rem 1.2rem;
+  margin: 1rem;
+  color:#fff;
+  background  :#1edda3;
+  border-color: #1edda3;
+}
+.btn-secondary:hover{
+  background  :#189582;
+  border-color: #189582;
+}
+.shopimg img{
+  width: 100%;
+}
+.ggmap {
+position: relative;
+padding-bottom: 56.25%;
+padding-top: 30px;
+height: 0;
+overflow: hidden;
+}
+
+.ggmap iframe,
+.ggmap object,
+.ggmap embed {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+.carousel-item{
+  background-size: cover;
+}
+
+/*--feature--*/
+/*h3.heading{
+  font-size: 1.9rem;
+  font-weight: 700;
+  margin-bottom: 1.9rem;
+}*/
+.heading-underline{
+  width: 3rem;
+  height: .2rem;
+  background:#1edda3;
+  margin: 0 auto 2rem;
+}
+.feature svg.svg-inline--fa{
+  color:#1edda3;
+}
+.feature h3{
+  font-size:1.3rem;
+  text-transform: uppercase;
+  /*text-transformプロパティは、大文字・小文字・全角文字への変換を指定する際に使用します。uppercaseは全ての文字を大文字にします。*/
+  padding-bottom:  .4rem;
+
+}
+.feature p{
+  font-size: 1.1rem;
+}
+
+/*--resources--*/
+.fixed{
+  background: url("img/apple.png");
+  z-index: -1;
+}
+.dark{
+  background: rgba(0,0,0,0.75);
+  color: #fff;
+  padding: 7rem 2rem;
+}
+.fixed-background h3{
+  margin-bottom: 2rem;
+}
+.fixed-background p{
+  margin-top: 1.5rem;
+}
+/*--clients--*/
+.serectionimg img{
+  width: 100%;
+  border-radius: 10%;
+}
+blockquote .svg-inline--fa {
+  color:#1edda3;
+  margin: 1rem;
+}
+.clients-hr{
+  border-top: .05rem solid #1edda3;
+}
+.clients-hr-text{
+  font-size: .7rem;
+}
+.btn-text{
+  font-size: 1rem;
+}
+
+#contact_mail{
+  background: #fff9fc;
+  width: 100vw;
+}
+
+#contact_mail .form input,#contact_mail .form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ffb2d8;
+}
+#contact_mail .form textarea {
+  height: 160px;
+  max-width: 100%;
+  max-height: 160px;
+}
+#contact_mail .form input[type="submit"] {
+  width: auto;
+  float: right;
+  padding: 10px 30px;
+  color: #fff;
+  border: 1px solid #1e90ff;
+  background: #1e90ff;
+  font-weight: 700;
+  letter-spacing: 1px;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+ #contact_mail .form input[type="submit"]:hover {
+  background: transparent;
+  color: #1e90ff;
+}
+#contact_mail .form .submit span {
+  font-size: 11px;
+  color: #999;
+}
+#contact_mail .form .submit span i {
+  margin-right: 5px;
+}
+.social-icon{
+  font-size: 30px;
+  color: #330033;
+}
+.social-icon span {
+  font-size: 20px;
+  margin: 0 5px 10px;
+}
+.copy-right {
+  padding: 50px 0;
+  text-align: center;
+  background: #eee;
+}
+.contact .copy-right p {
+  font-size: 12px;
+}
+.flower img{
+}
+
+/*--contact--*/
+footer{
+  background: #ffe4e1;
+  color:#330033;
+  padding: 2rem 0 2rem;
+  margin-top: 1rem;
+
+}
+footer img{
+  height: 3rem;
+  margin:1.5rem 0;
+}
+footer a{
+  color:#fff;
+}
+footer svg.svg-inline--fa{
+  font-size:1.6rem;
+  margin: 1.2rem .5rem 0 0;
+  color:#330033;
+}
+footer svg.svg-inline--fa:hover{
+  color:#1edda3;
+}
+.socket{
+  width: 100%;
+  border-top: .2rem solid #666d71;
+  margin-top: 3rem;
+}
+.fot{
+  font-size: .6rem;
+}
+.wrap{
+
+}
+@@media (max-width: 767px;) {
+  .narrow{
+    margin: 1.5rem auto;
+    padding-top: 2rem;
+  }
+  .caption{
+    position:absolute;
+    z-index: 1;
+    color: #fff;
+  }
+  .caption h1{
+    padding-bottom:1rem;
+  }
+
+}
+
+/*============ BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/
