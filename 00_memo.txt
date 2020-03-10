@@ -1,5 +1,7 @@
 目次
 01_move：javascriptライブラリを使用した四角を動かすアプリ
-02_02_bootstarp_website:実店舗をモデルにしたサイト作成。写経。
+02_bootstarp_website:実店舗をモデルにしたサイト作成。写経。
+03_web-syakyou:サイトデザインの写経no.1
+04_web-syakyou:サイトデザインの写経no.2(調整中)
 
 【参考資料】
