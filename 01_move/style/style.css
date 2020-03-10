@@ -1,0 +1,27 @@
+.inner{
+width:500px;/*コンテンツの幅*/
+max-width:100vw;/*横幅100％*/
+margin: 0 auto;
+padding:24px;
+}
+#btn{
+  background: #c0c0c0;
+  padding: 5px;
+  margin-bottom: 10px;
+  border-radius: 2px;
+  width: 100px;
+}
+#btn2{
+  background: #87cefa;
+  padding: 5px;
+  margin-bottom: 10px;
+  border-radius: 2px;
+  width: 100px;
+}
+#obj {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  background: #44A5CB;
+  color: #fff;
+}
