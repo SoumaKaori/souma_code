@@ -10,7 +10,16 @@
   max-width:100vw;/*横幅100％*/
   margin: 0 auto;
 }
+.nav-fixed{
+  display: fixed;
+}
 
+.btn{
+display: none;
+}
+.close-btn{
+  display: none;
+}
 .fadein{
   opacity: 0;
   transform: translateY(20px);
@@ -45,6 +54,7 @@ header{
   margin-top: 30px;
   font-size: 1rem;
   margin-right: 10px;
+  width: 100%;
 }
 .main-nav li{
   margin-left: 15px;
@@ -54,7 +64,13 @@ header{
 .main-nav li a{
     color: #fff;
     padding-bottom: 10px;
-
+}
+.drawer{
+  position: static;
+}
+.nav{
+  display: block;
+  transform: none;
 }
 .head-nav .main-nav li a{
   position: relative;
@@ -695,9 +711,61 @@ td.noborder{
     width: 100px;
     margin: 10px 0;
   }
-  .main-nav li a{
-    display: none;
-  }
+  .btn{
+  padding: 20px 10px;
+  margin: 10px;
+  background-color:#fff;
+  display: inline-block;
+  border-radius: 10px;
+  cursor: pointer;
+  position: absolute;
+  top: 20px;
+  right: 0;
+}
+.close-btn{
+  padding: 20px 10px;
+  margin: 10px;
+  border: 2px solid #fff;
+  display: inline-block;
+  border-radius: 10px;
+  cursor: pointer;
+  position: absolute;
+  top: 20px;
+  left: 0;
+  color: #fff;
+}
+.drawer{
+  position: relative;
+}
+.nav{
+  display: fixed;
+  width: 300px;
+  transform: translateX(100%);
+  background-color:rgba(0,0,0);
+  position: absolute;
+  transition: 0.5s;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  padding-top: 30px;
+  transition:ease .5s;
+  z-index: 10;
+}
+.drawer-open{
+  transform: translateX(0);
+  transition: 0.5s;
+}
+.nav ul li{
+  padding: 10px 0 10px 0;
+  text-align: center;
+}
+.nav ul li a{
+  color: #fff;
+}
+.main-nav{
+  display:block;
+}
+
   .top-text{
     color: #333333;
     text-align: center;
@@ -739,5 +807,11 @@ td.noborder{
   #page_top:hover{
     background-color: #3B5998;
   }
+  body.fixed {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+}
 
 }

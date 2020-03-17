@@ -58,11 +58,6 @@ $(function() {
     $('.policy').on('click',function(){
       $('.js-modal').fadeIn();
       return false;
-      var posi = $(window).scrollTop();
-      $('[data-modal="fixed"]').css({
-        position: 'fixed',
-        top: -1 * posi
-      });
     });
     $('.js-modal-close').on('click',function(){
       $('.js-modal').fadeOut();
@@ -70,3 +65,16 @@ $(function() {
     });
 
   });
+  $(function(){
+  $('.btn').on('click',function(){
+    $('body').addClass('fixed');
+    $('.nav').addClass('drawer-open');
+    $('.btn').css('display','none');
+    $('.btn').fadeOut(500);
+  });
+  $('.close-btn').on('click',function(){
+    $('.nav').removeClass('drawer-open');
+    $('body').removeClass('fixed');
+    $('.btn').fadeIn(1000);
+  });
+});
