@@ -1,0 +1,54 @@
+*{
+  text-decoration: none;
+}
+/* OPENのボタン */
+.btn{
+  padding: 20px 10px;
+  margin: 10px;
+  background-color:#808080;
+  display: inline-block;
+  border-radius: 10px;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: #fff;
+}
+/* closeのボタン */
+.close-btn{
+  padding: 20px 10px;
+  margin: 10px;
+  background-color:#fff;
+  display: inline-block;
+  border-radius: 10px;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.drawer{
+  position: relative;
+}
+.nav{
+  width: 300px;
+  transform: translateX(100%);
+  background:#808080;
+  position: absolute;
+  transition: 0.5s;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  padding-top: 50px;
+}
+.nav ul li{
+  padding: 20px 0 10px 0;
+  text-align: center;
+}
+.nav ul li a{
+  color: #fff;
+}
+/* 開くときの動き */
+.drawer-open{
+  transform: translateX(0);
+  transition: 0.5s;
+}
